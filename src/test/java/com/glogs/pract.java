@@ -52,6 +52,7 @@ public void mm() {
 		driver  = new ChromeDriver(options);
 		driver.get("https://www.google.com/");
 		System.out.println(driver.getCurrentUrl());
+		
 		/*
 		 * //System.out.println(driver.getPageSource()); Robot robot = new Robot(); //
 		 * Robot class throws AWT Exception Thread.sleep(2000); // Thread.sleep throws
